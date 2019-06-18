@@ -1,5 +1,8 @@
-= Redmine
+= USAGE
 
-Redmine is a flexible project management web application written using Ruby on Rails framework.
-
-More details can be found in the doc directory or on the official website http://www.redmine.org
+* heroku login
+* heroku create APP_NAME
+* heroku addons:add heroku-postgresql
+* OPEN BROWSER AND CONNECT TO GitHUB
+* heroku run rake db:migrate RAILS_ENV=production
+* heroku run rake redmine:load_default_data RAILS_ENV=production
